@@ -6,6 +6,7 @@ body {
     font-family: 'Hanna', sans-serif;
     background-color: #f7f7f7;
     padding-bottom: 4%;
+    font-size: 1.3rem
 }
 a {text-decoration:none;}
 a:link {text-decoration:none; color:initial;}
@@ -22,12 +23,13 @@ a:hover {text-decoration:none; color:initial;}
 }
 
 #all_wrap > h1 {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
     padding-top: 5%;
 }
 
 .pclass {
+    font-size: 1.4rem;
     letter-spacing: 1px;
 }
 
@@ -36,7 +38,7 @@ a:hover {text-decoration:none; color:initial;}
     margin-top: 3%;
     padding: 1% 2% 1% 2%;
     border-radius: 9px;
-    font-size: 1.05rem;
+    font-size: 1.3rem;
     border-style: none;
     background-color: #72d97e;
     box-shadow: 3px 3px 5px grey;
@@ -97,7 +99,7 @@ a:hover {text-decoration:none; color:initial;}
     background-color: white;
     border-style: none;
     padding: 1% 23% 1% 23%;
-    font-size: 1.05rem;
+    font-size: 1.3rem;
     font-weight: bold;
     border-radius: 5px;
     -webkit-transition: all 200ms;
@@ -133,7 +135,7 @@ a:hover {text-decoration:none; color:initial;}
     color: #00be14;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:600px){
     #all_wrap > h1 {
         font-size: 1.5rem;
         padding-top: 5%;
