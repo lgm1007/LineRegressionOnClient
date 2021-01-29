@@ -1,0 +1,243 @@
+html {
+    background-color: #dceadc;
+}
+
+body {
+    font-family: 'Hanna', sans-serif;
+    background-color: #f7f7f7;
+    padding-bottom: 4%;
+}
+a {text-decoration:none;}
+a:link {text-decoration:none; color:initial;}
+a:visited {text-decoration:none; color:initial;}
+a:hover {text-decoration:none; color:initial;}
+
+
+/*On Screen that are desktop and tablet*/
+#all_wrap {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+#all_wrap > h1 {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    padding-top: 5%;
+}
+
+.pclass {
+    letter-spacing: 1px;
+}
+
+#add_num {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 9px;
+    font-size: 1.05rem;
+    border-style: none;
+    background-color: #72d97e;
+    box-shadow: 3px 3px 5px grey;
+    font-weight: bold;
+    color:white;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+#add_num:hover {
+    background-color: #508055;
+    cursor: pointer;
+}
+
+#element_wrap > input[type=number] {
+    margin-bottom: 2%;
+    width: 25%;
+    font-size: 1.3rem;
+    border-left: #fff;
+    border-right: #fff;
+    border-top: #fff;
+    border-radius: 8px;
+}
+
+#bottom_wrap, #element_wrap {
+    background-color: #dcdcdc;
+}
+
+#bottom_wrap {
+    padding-bottom: 3%;
+}
+
+#bottom_wrap > p {
+    font-size: 1.3rem;
+}
+
+#epos {
+    padding: 1% 0 1% 1%;
+    width: 15%;
+    font-size: 1.05rem;
+    border: 3px solid #bdb6b6;
+}
+
+#res {
+    padding: 1% 0 1% 1%;
+    width: 13%;
+    font-size: 1.05rem;
+    border: 3px solid #bdb6b6;
+    border-top: 0px;
+}
+
+#start {
+    margin-top: 2%;
+    box-shadow: 3px 3px 5px grey;
+    background-color: white;
+    border-style: none;
+    padding: 1% 23% 1% 23%;
+    font-size: 1.05rem;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+#start:hover {
+    cursor: pointer;
+    color: #00be14;
+}
+
+#reset {
+    margin-top: 2%;
+    box-shadow: 3px 3px 5px grey;
+    background-color: white;
+    border-style: none;
+    padding: 1% 23% 1% 23%;
+    font-size: 1.05rem;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+#reset:hover {
+    cursor: pointer;
+    color: #00be14;
+}
+
+@media screen and (max-width: 600px){
+    #all_wrap > h1 {
+        font-size: 1.5rem;
+        padding-top: 5%;
+    }
+    
+    .pclass {
+        font-size: 1.04rem;
+        letter-spacing: 1px;
+    }
+
+    #add_num {
+        margin-bottom: 3%;
+        margin-top: 3%;
+        padding: 1% 2% 1% 2%;
+        border-radius: 9px;
+        font-size: 1.05rem;
+        border-style: none;
+        background-color: #72d97e;
+        box-shadow: 3px 3px 5px grey;
+        font-weight: bold;
+        color:white;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+    }
+    
+    #add_num:hover {
+        background-color: #508055;
+        cursor: pointer;
+    }
+    
+    #element_wrap > input[type=number] {
+        margin-bottom: 2%;
+        width: 25%;
+        font-size: 0.95rem;
+        border-left: #fff;
+        border-right: #fff;
+        border-top: #fff;
+        border-radius: 8px;
+    }
+    
+    #bottom_wrap, #element_wrap {
+        background-color: #dcdcdc;
+    }
+    
+    #bottom_wrap {
+        padding-bottom: 3%;
+    }
+    
+    #bottom_wrap > p {
+        font-size: 1.3rem;
+    }
+    
+    #epos {
+        padding: 2% 1% 2% 1%;
+        width: 16%;
+    }
+
+    #res {
+        padding: 2% 1% 2% 1%;
+        width: 10%;
+    }
+
+    #start {
+        margin-top: 2%;
+        box-shadow: 3px 3px 5px grey;
+        background-color: white;
+        border-style: none;
+        padding: 1% 23% 1% 23%;
+        font-size: 1.05rem;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+    }
+    
+    #start:hover {
+        cursor: pointer;
+        color: #00be14;
+    }
+
+    #reset {
+        margin-top: 2%;
+        box-shadow: 3px 3px 5px grey;
+        background-color: white;
+        border-style: none;
+        padding: 1% 23% 1% 23%;
+        font-size: 1.05rem;
+        font-weight: bold;
+        border-radius: 5px;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+    }
+    
+    #reset:hover {
+        cursor: pointer;
+        color: #00be14;
+    }
+}
