@@ -140,6 +140,14 @@ a:hover {text-decoration:none; color:initial;}
     color: #00be14;
 }
 
+.footer {
+    text-align: center;
+}
+
+.footer-div > p {
+    font-size: 1rem;
+}
+
 @media screen and (max-width:600px){
     #top_wrap > h1 {
         font-size: 1.5rem;
@@ -252,5 +260,13 @@ a:hover {text-decoration:none; color:initial;}
     #reset:hover {
         cursor: pointer;
         color: #00be14;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    
+    .footer-div > p {
+        font-size: 0.7rem;
     }
 }
