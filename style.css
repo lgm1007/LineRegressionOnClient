@@ -148,7 +148,7 @@ a:hover {text-decoration:none; color:initial;}
     }
     
     .pclass {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #image {
@@ -159,7 +159,7 @@ a:hover {text-decoration:none; color:initial;}
     #add_num {
         margin-bottom: 3%;
         margin-top: 3%;
-        padding: 1% 2% 1% 2%;
+        padding: 1% 23% 1% 23%;
         border-radius: 9px;
         font-size: 1.05rem;
         border-style: none;
