@@ -1,5 +1,5 @@
 html {
-    background-color: #dceadc;
+    background-color: #ccc;
 }
 
 body {
@@ -16,13 +16,13 @@ a:hover {text-decoration:none; color:initial;}
 
 /*On Screen that are desktop and tablet*/
 #all_wrap {
-    width: 50%;
+    width: 90%;
     margin: 0 auto 0 auto;
     align-items: center;
     text-align: center;
 }
 
-#all_wrap > h1 {
+#top_wrap > h1 {
     display: inline-block;
     font-size: 2rem;
     padding-top: 5%;
@@ -41,7 +41,7 @@ a:hover {text-decoration:none; color:initial;}
 #add_num {
     margin-bottom: 3%;
     margin-top: 3%;
-    padding: 1% 2% 1% 2%;
+    padding: 1% 23% 1% 23%;
     border-radius: 9px;
     font-size: 1.3rem;
     border-style: none;
@@ -72,7 +72,7 @@ a:hover {text-decoration:none; color:initial;}
 }
 
 #bottom_wrap, #element_wrap {
-    background-color: #dcdcdc;
+    background-color: #eeecec;
 }
 
 #bottom_wrap {
@@ -141,7 +141,7 @@ a:hover {text-decoration:none; color:initial;}
 }
 
 @media screen and (max-width:600px){
-    #all_wrap > h1 {
+    #top_wrap > h1 {
         font-size: 1.5rem;
         padding-top: 5%;
         display: inline-block;
