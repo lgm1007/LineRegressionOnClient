@@ -3,8 +3,8 @@
 <head>
     <title>Predict next value to Line Regression</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="source/icoConvertplz.ico" type="image/x-icon">
-    <link rel="icon" href="source/icoConvertplz.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="source/iconGraph.ico" type="image/x-icon">
+    <link rel="icon" href="source/iconGraph.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
     <script type="text/javascript">
        var inputArray = [];
@@ -99,9 +99,11 @@
 </head>
 <body>
     <section id="all_wrap">
-        <h1>다음 값 예측 애플리케이션</h1>
+        <h1>다음 값 예측 애플리케이션</h1> 
+        <img src="source/graph.png" id="image"/>
         <p class="pclass">Machine Learning 선형회귀를 이용하여 입력값 다음에 나올 값들을 예측합니다.<br/>
         (머신러닝으로 입력한 값을 기반으로 예측한 값이기 때문에 100% 일치할 수 없습니다.)</p>
+            
         <section id="element_wrap">
             <button type="button" id="add_num" onclick="addNumber();">숫자 추가</button><br/>
         
