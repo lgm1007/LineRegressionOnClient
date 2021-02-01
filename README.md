@@ -7,7 +7,7 @@ Tensorflow.js의 선형 회귀를 응용하여 사용자의 입력값 간 규칙
 
 [프로젝트](https://predict2regression.netlify.app) 페이지에서 실제로 이용해보세요!
 
-##### Tool
+#### Tool
 
 1. HTML 5
 2. CSS
