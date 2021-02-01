@@ -4,8 +4,10 @@
 
 <br/>
 Tensorflow.js의 선형 회귀를 응용하여 사용자의 입력값 간 규칙을 학습하여 다음 값을 예측하는 웹 애플리케이션 프로젝트<br/>
-[프로젝트](https://predict2regression.netlify.app/) 페이지에서 실제로 동작을 테스트 해보세요! <br/>
-**Tool**
+
+[프로젝트](https://predict2regression.netlify.app) 페이지에서 실제로 이용해보세요!
+
+##### Tool
 
 1. HTML 5
 2. CSS
@@ -13,7 +15,10 @@ Tensorflow.js의 선형 회귀를 응용하여 사용자의 입력값 간 규칙
 
 ## Table of Contents
 
-
+- [Default Page](#Default-Page)
+- [Add Input](#Add-Input)
+- [Execute Predict](#Execute-Predict)
+- [Helped](#Helped)
 
 ## Default Page
 
