@@ -20,17 +20,22 @@
        var length = 5;
 
        function addNumber() {
-           // Add number type input box
-            var newNum = document.createElement("input");
-            // Add <br /> tag after add input tag
-            var br = document.createElement("br");
-            newNum.type = "number";
-            // Input id = 1, 2, 3, 4, 5, ...
-            newNum.setAttribute("id", "" + (length+1));
-            length++;
-            // Append element
-            document.getElementById("element_wrap").appendChild(newNum);
-            document.getElementById("element_wrap").appendChild(br);
+           // Limit input box number 16
+           if(length < 16) {
+                // Add number type input box
+                var newNum = document.createElement("input");
+                // Add <br /> tag after add input tag
+                var br = document.createElement("br");
+                newNum.type = "number";
+                // Input id = 1, 2, 3, 4, 5, ...
+                newNum.setAttribute("id", "" + (length+1));
+                length++;
+                // Append element
+                document.getElementById("element_wrap").appendChild(newNum);
+                document.getElementById("element_wrap").appendChild(br);
+            } else {
+                alert('입력값은 16개까지 입력 가능합니다');
+            }
        }
 
        function createPredict() {
@@ -73,7 +78,7 @@
             model.fit(xs, ys, fitParam).then(()=>{
                 // Test data Inference
                 for(var i = 1; i <= res; i++) {
-                    let result = model.predict(tf.tensor([length + i], [1])).arraySync();
+                    var result = model.predict(tf.tensor([length + i], [1])).arraySync();
                     // Create p tag
                     var resultPtag = document.createElement('p');
                     // Set p tag value on predict result
